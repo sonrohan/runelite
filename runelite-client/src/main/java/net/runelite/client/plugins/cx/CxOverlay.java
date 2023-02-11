@@ -29,7 +29,7 @@ public class CxOverlay extends Overlay
     @Inject
     private CxOverlay(Client client, CxPlugin plugin, SpriteManager spriteManager)
     {
-        setPosition(OverlayPosition.BOTTOM_RIGHT);
+        setPosition(OverlayPosition.ABOVE_CHATBOX_RIGHT);
         setPriority(OverlayPriority.HIGH);
         this.client = client;
         this.plugin = plugin;
